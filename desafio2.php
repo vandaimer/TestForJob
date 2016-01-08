@@ -1,9 +1,16 @@
-Primeiro caracter único de uma string<br/>
-<form action="desafio2.php" method="post">
-Palavra: <input type='text' name="palavra">
-<br/>
-<input type='submit' value="Qual é o caracter?">
-</form>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		Primeiro caracter único de uma string<br/>
+		<form action="desafio2.php" method="post">
+		Palavra: <input type='text' name="palavra">
+		<br/>
+		<input type='submit' value="Qual é o caracter?">
+		</form>
+	</body>
+</html>
 <?php
 if( !empty( $_POST ) )
 {

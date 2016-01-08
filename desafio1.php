@@ -1,11 +1,17 @@
-<form action="desafio1.php" method="post">
-	Dividendo: <input type="text" name="dividendo">
-	<br/>
-	Divisor: <input type="text" name="divisor">
-	<br/>
-	<input type="submit">
-</form>
-
+<html>
+	<head>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<form action="desafio1.php" method="post">
+			Dividendo: <input type="text" name="dividendo">
+			<br/>
+			Divisor: <input type="text" name="divisor">
+			<br/>
+			<input type="submit">
+		</form>
+	</body>
+</html>
 <?php
 if( !empty( $_POST ) )
 {
